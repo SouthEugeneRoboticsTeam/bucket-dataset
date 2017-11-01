@@ -12,10 +12,10 @@ def generate_manifest(dir, pattern, manifest):
 
     for pathAndFilename in files:
         data.append(pathAndFilename.split('/')[-1])
-        
+
     data.sort(key=natural_keys)
-        
+
     with open(manifest, 'w') as outfile:
         json.dump(data, outfile)
 
-generate_manifest(r'../images', r'*', r'../images/_manifest.json')
+generate_manifest(r'../imageset_2', r'*', r'../imageset_2/_manifest.json')

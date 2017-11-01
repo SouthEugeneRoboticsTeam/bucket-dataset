@@ -9,4 +9,4 @@ def rename(dir, pattern):
         imResize = im.resize((240,180), Image.ANTIALIAS)
         imResize.save(pathAndFilename, 'JPEG', quality=90)
 
-rename(r'../images', r'*')
+rename(r'../imageset_2', r'*.jpg')
