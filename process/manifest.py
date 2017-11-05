@@ -18,4 +18,4 @@ def generate_manifest(dir, pattern, manifest):
     with open(manifest, 'w') as outfile:
         json.dump(data, outfile)
 
-generate_manifest(r'../imageset_2', r'*', r'../imageset_2/_manifest.json')
+generate_manifest(r'../imageset_3', r'*', r'../imageset_3/_manifest.json')
