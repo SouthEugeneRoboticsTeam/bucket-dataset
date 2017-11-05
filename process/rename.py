@@ -1,7 +1,7 @@
 import glob, os, random
 
 def rename(dir, pattern):
-    i = 341
+    i = 745
 
     files = glob.glob(os.path.join(dir, pattern))
     random.shuffle(files)
@@ -12,4 +12,4 @@ def rename(dir, pattern):
         title, ext = os.path.splitext(os.path.basename(pathAndFilename))
         os.rename(pathAndFilename, os.path.join(dir, "%05d.jpg" % i))
 
-rename(r'../imageset_3_prescale', r'*')
+rename(r'c:/Users/Aidan/Desktop/buckets', r'*')
