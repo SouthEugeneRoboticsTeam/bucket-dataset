@@ -26,4 +26,4 @@ def rename(dir, pattern):
         except:
             traceback.print_exc()
 
-rename(r'../imageset_3', r'*.jpg')
+rename(r'c:/Users/Aidan/Desktop/buckets', r'*.jpg')
