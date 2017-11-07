@@ -1,6 +1,6 @@
 <annotation>
   <folder>bucket-dataset</folder>
-  <filename>00147.jpg</filename>
+  <filename>00216.jpg</filename>
   <size>
     <width>240</width>
     <height>180</height>
@@ -13,10 +13,10 @@
     <truncated>0</truncated>
     <difficult>0</difficult>
     <bndbox>
-      <xmin>87.33333333333333</xmin>
-      <ymin>51.61764705882353</ymin>
-      <xmax>148.00000000000003</xmax>
-      <ymax>90.33088235294116</ymax>
+      <xmin>138.33333333333331</xmin>
+      <ymin>57.5735294117647</ymin>
+      <xmax>178.99999999999997</xmax>
+      <ymax>112.16911764705883</ymax>
     </bndbox>
   </object>
 </annotation>

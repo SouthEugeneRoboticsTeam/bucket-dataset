@@ -1,0 +1,22 @@
+<annotation>
+  <folder>bucket-dataset</folder>
+  <filename>00174.jpg</filename>
+  <size>
+    <width>240</width>
+    <height>180</height>
+    <depth>3</depth>
+  </size>
+  <segmented>0</segmented>
+  <object>
+    <name>bucket</name>
+    <pose>Unspecified</pose>
+    <truncated>0</truncated>
+    <difficult>0</difficult>
+    <bndbox>
+      <xmin>172.66666666666666</xmin>
+      <ymin>66.83823529411765</ymin>
+      <xmax>218.33333333333331</xmax>
+      <ymax>122.75735294117649</ymax>
+    </bndbox>
+  </object>
+</annotation>
